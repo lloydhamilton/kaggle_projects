@@ -1,0 +1,621 @@
+[{"stream_name":"stderr","time":13.398109599,"data":"/opt/conda/lib/python3.7/site-packages/papermill/iorw.py:50: FutureWarning: pyarrow.HadoopFileSystem is deprecated as of 2.0.0, please use pyarrow.fs.HadoopFileSystem instead.\n"}
+,{"stream_name":"stderr","time":13.398171647,"data":"  from pyarrow import HadoopFileSystem\n"}
+,{"stream_name":"stdout","time":15.291578228,"data":"sample_submission.csv  test_images  train.csv  train_images\r\n"}
+,{"stream_name":"stdout","time":16.383527717,"data":"image,species,individual_id\r\n"}
+,{"stream_name":"stdout","time":16.383595454,"data":"00021adfb725ed.jpg,melon_headed_whale,cadddb1636b9\r\n"}
+,{"stream_name":"stdout","time":16.383614255,"data":"000562241d384d.jpg,humpback_whale,1a71fbb72250\r\n"}
+,{"stream_name":"stdout","time":16.383621635,"data":"0007c33415ce37.jpg,false_killer_whale,60008f293a2b\r\n"}
+,{"stream_name":"stdout","time":16.383627933,"data":"0007d9bca26a99.jpg,bottlenose_dolphin,4b00fe572063\r\n"}
+,{"stream_name":"stdout","time":18.257563144,"data":"00021adfb725ed.jpg\r\n"}
+,{"stream_name":"stdout","time":18.257611589,"data":"000562241d384d.jpg\r\n"}
+,{"stream_name":"stdout","time":18.257621487,"data":"0007c33415ce37.jpg\r\n"}
+,{"stream_name":"stdout","time":18.257626518,"data":"0007d9bca26a99.jpg\r\n"}
+,{"stream_name":"stdout","time":18.257630596,"data":"00087baf5cef7a.jpg\r\n"}
+,{"stream_name":"stdout","time":18.257634461,"data":"ls: write error: Broken pipe\r\n"}
+,{"stream_name":"stdout","time":19.626225805,"data":"000110707af0ba.jpg\r\n"}
+,{"stream_name":"stdout","time":19.626281812,"data":"0006287ec424cb.jpg\r\n"}
+,{"stream_name":"stdout","time":19.626292249,"data":"000809ecb2ccad.jpg\r\n"}
+,{"stream_name":"stdout","time":19.626298745,"data":"00098d1376dab2.jpg\r\n"}
+,{"stream_name":"stdout","time":19.626304563,"data":"000b8d89c738bd.jpg\r\n"}
+,{"stream_name":"stdout","time":19.633888847,"data":"ls: write error: Broken pipe\r\n"}
+,{"stream_name":"stdout","time":22.331536374,"data":"image,species,individual_id\r\n"}
+,{"stream_name":"stdout","time":22.331578781,"data":"000110707af0ba.jpg,unknown,unknown\r\n"}
+,{"stream_name":"stdout","time":22.331585489,"data":"0006287ec424cb.jpg,unknown,unknown\r\n"}
+,{"stream_name":"stdout","time":22.331589923,"data":"000809ecb2ccad.jpg,unknown,unknown\r\n"}
+,{"stream_name":"stdout","time":22.331593829,"data":"00098d1376dab2.jpg,unknown,unknown\r\n"}
+,{"stream_name":"stdout","time":25.173894782,"data":"/kaggle/working/__notebook__.ipynb  /kaggle/working/test.csv\r\n"}
+,{"stream_name":"stdout","time":25.173940748,"data":"\r\n"}
+,{"stream_name":"stdout","time":25.173950522,"data":"/kaggle/working/cropped:\r\n"}
+,{"stream_name":"stdout","time":25.173956837,"data":"train_images\r\n"}
+,{"stream_name":"stdout","time":25.173967024,"data":"\r\n"}
+,{"stream_name":"stdout","time":25.173972625,"data":"/kaggle/working/nobg:\r\n"}
+,{"stream_name":"stdout","time":25.173981524,"data":"train_images\r\n"}
+,{"stream_name":"stdout","time":27.442886826,"data":"\n"}
+,{"stream_name":"stdout","time":27.443472963,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":27.44348801,"data":"\n"}
+,{"stream_name":"stdout","time":27.443494381,"data":"   Images for species No.00 melon_headed_whale\n"}
+,{"stream_name":"stdout","time":27.443502492,"data":"\n"}
+,{"stream_name":"stdout","time":27.443506572,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":27.443510713,"data":"\n"}
+,{"stream_name":"stdout","time":27.443514517,"data":"Individual ID : cadddb1636b9\n"}
+,{"stream_name":"stdout","time":27.860556285,"data":"\n"}
+,{"stream_name":"stdout","time":27.860625944,"data":"Individual ID : c27f0a7f4e5a\n"}
+,{"stream_name":"stdout","time":28.225577384,"data":"\n"}
+,{"stream_name":"stdout","time":28.225619953,"data":"Individual ID : a21288153152\n"}
+,{"stream_name":"stdout","time":28.576980318,"data":"\n"}
+,{"stream_name":"stdout","time":28.577033977,"data":"\n"}
+,{"stream_name":"stdout","time":28.577052882,"data":"\n"}
+,{"stream_name":"stdout","time":28.577059654,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":28.577066166,"data":"\n"}
+,{"stream_name":"stdout","time":28.577073148,"data":"   Images for species No.01 humpback_whale\n"}
+,{"stream_name":"stdout","time":28.577079455,"data":"\n"}
+,{"stream_name":"stdout","time":28.57708471,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":28.577090841,"data":"\n"}
+,{"stream_name":"stdout","time":28.577096037,"data":"Individual ID : 1a71fbb72250\n"}
+,{"stream_name":"stdout","time":31.032915369,"data":"\n"}
+,{"stream_name":"stdout","time":31.03295446,"data":"Individual ID : 8e5253662392\n"}
+,{"stream_name":"stdout","time":36.197125039,"data":"\n"}
+,{"stream_name":"stdout","time":36.197167539,"data":"Individual ID : 444d8894ccc8\n"}
+,{"stream_name":"stdout","time":40.792398737,"data":"\n"}
+,{"stream_name":"stdout","time":40.792440989,"data":"\n"}
+,{"stream_name":"stdout","time":40.792448261,"data":"\n"}
+,{"stream_name":"stdout","time":40.792453771,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":40.792477123,"data":"\n"}
+,{"stream_name":"stdout","time":40.792484362,"data":"   Images for species No.02 false_killer_whale\n"}
+,{"stream_name":"stdout","time":40.792497696,"data":"\n"}
+,{"stream_name":"stdout","time":40.792503068,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":40.792509139,"data":"\n"}
+,{"stream_name":"stdout","time":40.792514794,"data":"Individual ID : 60008f293a2b\n"}
+,{"stream_name":"stdout","time":43.136868468,"data":"\n"}
+,{"stream_name":"stdout","time":43.136917359,"data":"Individual ID : bfb74132d1db\n"}
+,{"stream_name":"stdout","time":44.031128143,"data":"\n"}
+,{"stream_name":"stdout","time":44.031345363,"data":"Individual ID : f7bb4f9a9d1a\n"}
+,{"stream_name":"stdout","time":48.892579431,"data":"\n"}
+,{"stream_name":"stdout","time":48.892616932,"data":"\n"}
+,{"stream_name":"stdout","time":48.89262361,"data":"\n"}
+,{"stream_name":"stdout","time":48.892628992,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":48.892634576,"data":"\n"}
+,{"stream_name":"stdout","time":48.892639744,"data":"   Images for species No.03 bottlenose_dolphin\n"}
+,{"stream_name":"stdout","time":48.892645055,"data":"\n"}
+,{"stream_name":"stdout","time":48.892650522,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":48.892655848,"data":"\n"}
+,{"stream_name":"stdout","time":48.892660962,"data":"Individual ID : 4b00fe572063\n"}
+,{"stream_name":"stdout","time":53.546204645,"data":"\n"}
+,{"stream_name":"stdout","time":53.546247455,"data":"Individual ID : b9907151f66e\n"}
+,{"stream_name":"stdout","time":57.951701783,"data":"\n"}
+,{"stream_name":"stdout","time":57.951737214,"data":"Individual ID : b11b2404c7e3\n"}
+,{"stream_name":"stdout","time":62.216772267,"data":"\n"}
+,{"stream_name":"stdout","time":62.216796768,"data":"\n"}
+,{"stream_name":"stdout","time":62.21681558,"data":"\n"}
+,{"stream_name":"stdout","time":62.216819521,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":62.216823279,"data":"\n"}
+,{"stream_name":"stdout","time":62.216826653,"data":"   Images for species No.04 beluga\n"}
+,{"stream_name":"stdout","time":62.216830102,"data":"\n"}
+,{"stream_name":"stdout","time":62.216833641,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":62.216837526,"data":"\n"}
+,{"stream_name":"stdout","time":62.216840811,"data":"Individual ID : afb9b3978217\n"}
+,{"stream_name":"stdout","time":64.053146171,"data":"\n"}
+,{"stream_name":"stdout","time":64.053197841,"data":"Individual ID : df94b15285b9\n"}
+,{"stream_name":"stdout","time":66.787595785,"data":"\n"}
+,{"stream_name":"stdout","time":66.787658485,"data":"Individual ID : 0ad50d0d9b06\n"}
+,{"stream_name":"stdout","time":67.754721016,"data":"\n"}
+,{"stream_name":"stdout","time":67.754743347,"data":"\n"}
+,{"stream_name":"stdout","time":67.75474763,"data":"\n"}
+,{"stream_name":"stdout","time":67.754751275,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":67.754754948,"data":"\n"}
+,{"stream_name":"stdout","time":67.754758242,"data":"   Images for species No.05 minke_whale\n"}
+,{"stream_name":"stdout","time":67.754761547,"data":"\n"}
+,{"stream_name":"stdout","time":67.754764779,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":67.754768024,"data":"\n"}
+,{"stream_name":"stdout","time":67.754771188,"data":"Individual ID : 19fbb960f07d\n"}
+,{"stream_name":"stdout","time":72.386146579,"data":"\n"}
+,{"stream_name":"stdout","time":72.386181588,"data":"Individual ID : 780fefdb6198\n"}
+,{"stream_name":"stdout","time":77.1799398,"data":"\n"}
+,{"stream_name":"stdout","time":77.1805714,"data":"Individual ID : 114207cab555\n"}
+,{"stream_name":"stdout","time":82.027815954,"data":"\n"}
+,{"stream_name":"stdout","time":82.027852842,"data":"\n"}
+,{"stream_name":"stdout","time":82.027859673,"data":"\n"}
+,{"stream_name":"stdout","time":82.027864994,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":82.027870124,"data":"\n"}
+,{"stream_name":"stdout","time":82.027875076,"data":"   Images for species No.06 fin_whale\n"}
+,{"stream_name":"stdout","time":82.027879948,"data":"\n"}
+,{"stream_name":"stdout","time":82.027884712,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":82.027889246,"data":"\n"}
+,{"stream_name":"stdout","time":82.027894001,"data":"Individual ID : 180c0ab04dcd\n"}
+,{"stream_name":"stdout","time":85.91550721,"data":"\n"}
+,{"stream_name":"stdout","time":85.915544845,"data":"Individual ID : b6a0a552e43c\n"}
+,{"stream_name":"stdout","time":88.458623821,"data":"\n"}
+,{"stream_name":"stdout","time":88.458656431,"data":"Individual ID : 43a1413b3da1\n"}
+,{"stream_name":"stdout","time":89.511913079,"data":"\n"}
+,{"stream_name":"stdout","time":89.51193495,"data":"\n"}
+,{"stream_name":"stdout","time":89.511938824,"data":"\n"}
+,{"stream_name":"stdout","time":89.511942266,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":89.511946007,"data":"\n"}
+,{"stream_name":"stdout","time":89.511961139,"data":"   Images for species No.07 blue_whale\n"}
+,{"stream_name":"stdout","time":89.511965105,"data":"\n"}
+,{"stream_name":"stdout","time":89.511986025,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":89.511989469,"data":"\n"}
+,{"stream_name":"stdout","time":89.511992682,"data":"Individual ID : 4790ec346170\n"}
+,{"stream_name":"stdout","time":89.816553396,"data":"\n"}
+,{"stream_name":"stdout","time":89.816587862,"data":"Individual ID : ff69d0975a73\n"}
+,{"stream_name":"stdout","time":91.130185183,"data":"\n"}
+,{"stream_name":"stdout","time":91.130222951,"data":"Individual ID : 6c4372e42db1\n"}
+,{"stream_name":"stdout","time":92.152240786,"data":"\n"}
+,{"stream_name":"stdout","time":92.152274634,"data":"\n"}
+,{"stream_name":"stdout","time":92.152281001,"data":"\n"}
+,{"stream_name":"stdout","time":92.152286116,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":92.15229152,"data":"\n"}
+,{"stream_name":"stdout","time":92.152296435,"data":"   Images for species No.08 gray_whale\n"}
+,{"stream_name":"stdout","time":92.152301625,"data":"\n"}
+,{"stream_name":"stdout","time":92.152306387,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":92.152311361,"data":"\n"}
+,{"stream_name":"stdout","time":92.152316423,"data":"Individual ID : a8c9dfb8ac6f\n"}
+,{"stream_name":"stdout","time":96.778649395,"data":"\n"}
+,{"stream_name":"stdout","time":96.778687852,"data":"Individual ID : fdcf5957ae47\n"}
+,{"stream_name":"stdout","time":101.645051201,"data":"\n"}
+,{"stream_name":"stdout","time":101.645076337,"data":"Individual ID : 432f64decd00\n"}
+,{"stream_name":"stdout","time":106.498632306,"data":"\n"}
+,{"stream_name":"stdout","time":106.498671427,"data":"\n"}
+,{"stream_name":"stdout","time":106.49867859,"data":"\n"}
+,{"stream_name":"stdout","time":106.498685107,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":106.498691543,"data":"\n"}
+,{"stream_name":"stdout","time":106.498697778,"data":"   Images for species No.09 southern_right_whale\n"}
+,{"stream_name":"stdout","time":106.498704292,"data":"\n"}
+,{"stream_name":"stdout","time":106.498710346,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":106.4987176,"data":"\n"}
+,{"stream_name":"stdout","time":106.498724138,"data":"Individual ID : f5eab86405b4\n"}
+,{"stream_name":"stdout","time":106.915439671,"data":"\n"}
+,{"stream_name":"stdout","time":106.91550391,"data":"Individual ID : 98336401fb38\n"}
+,{"stream_name":"stdout","time":107.282972848,"data":"\n"}
+,{"stream_name":"stdout","time":107.28301726,"data":"Individual ID : f31981273a12\n"}
+,{"stream_name":"stdout","time":109.258697107,"data":"\n"}
+,{"stream_name":"stdout","time":109.258726006,"data":"\n"}
+,{"stream_name":"stdout","time":109.258738954,"data":"\n"}
+,{"stream_name":"stdout","time":109.258742776,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":109.258746315,"data":"\n"}
+,{"stream_name":"stdout","time":109.258749657,"data":"   Images for species No.10 common_dolphin\n"}
+,{"stream_name":"stdout","time":109.258753102,"data":"\n"}
+,{"stream_name":"stdout","time":109.258756418,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":109.258760212,"data":"\n"}
+,{"stream_name":"stdout","time":109.258763428,"data":"Individual ID : e943980b7a98\n"}
+,{"stream_name":"stdout","time":111.036160477,"data":"\n"}
+,{"stream_name":"stdout","time":111.036194507,"data":"Individual ID : d05b5f372c0b\n"}
+,{"stream_name":"stdout","time":112.959323294,"data":"\n"}
+,{"stream_name":"stdout","time":112.959352228,"data":"Individual ID : d8903b976ed0\n"}
+,{"stream_name":"stdout","time":117.654742248,"data":"\n"}
+,{"stream_name":"stdout","time":117.654780282,"data":"\n"}
+,{"stream_name":"stdout","time":117.654785481,"data":"\n"}
+,{"stream_name":"stdout","time":117.654792993,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":117.654796681,"data":"\n"}
+,{"stream_name":"stdout","time":117.654799999,"data":"   Images for species No.11 kiler_whale\n"}
+,{"stream_name":"stdout","time":117.654806308,"data":"\n"}
+,{"stream_name":"stdout","time":117.654809808,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":117.654813197,"data":"\n"}
+,{"stream_name":"stdout","time":117.654816381,"data":"Individual ID : 1816cc1ae38b\n"}
+,{"stream_name":"stdout","time":122.872904355,"data":"\n"}
+,{"stream_name":"stdout","time":122.872932949,"data":"Individual ID : c2b64ccd2f88\n"}
+,{"stream_name":"stdout","time":127.478473141,"data":"\n"}
+,{"stream_name":"stdout","time":127.478501907,"data":"Individual ID : 5237b2a5ea5e\n"}
+,{"stream_name":"stdout","time":132.355863521,"data":"\n"}
+,{"stream_name":"stdout","time":132.355889051,"data":"\n"}
+,{"stream_name":"stdout","time":132.355893738,"data":"\n"}
+,{"stream_name":"stdout","time":132.355897743,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":132.355901634,"data":"\n"}
+,{"stream_name":"stdout","time":132.355905326,"data":"   Images for species No.12 pilot_whale\n"}
+,{"stream_name":"stdout","time":132.355909249,"data":"\n"}
+,{"stream_name":"stdout","time":132.355912783,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":132.355916524,"data":"\n"}
+,{"stream_name":"stdout","time":132.355919998,"data":"Individual ID : fefd0899a5dc\n"}
+,{"stream_name":"stdout","time":135.570387271,"data":"\n"}
+,{"stream_name":"stdout","time":135.570424871,"data":"Individual ID : cf9f94464b9b\n"}
+,{"stream_name":"stdout","time":136.307967139,"data":"\n"}
+,{"stream_name":"stdout","time":136.308001029,"data":"Individual ID : bababdd38081\n"}
+,{"stream_name":"stdout","time":137.57182748,"data":"\n"}
+,{"stream_name":"stdout","time":137.571855757,"data":"\n"}
+,{"stream_name":"stdout","time":137.571859926,"data":"\n"}
+,{"stream_name":"stdout","time":137.571863476,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":137.571867069,"data":"\n"}
+,{"stream_name":"stdout","time":137.571870303,"data":"   Images for species No.13 dusky_dolphin\n"}
+,{"stream_name":"stdout","time":137.571873631,"data":"\n"}
+,{"stream_name":"stdout","time":137.571877009,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":137.571880327,"data":"\n"}
+,{"stream_name":"stdout","time":137.571883576,"data":"Individual ID : 456bb79da64c\n"}
+,{"stream_name":"stdout","time":137.887739058,"data":"\n"}
+,{"stream_name":"stdout","time":137.887766172,"data":"Individual ID : 2fad69faf2a4\n"}
+,{"stream_name":"stdout","time":138.229166332,"data":"\n"}
+,{"stream_name":"stdout","time":138.229199002,"data":"Individual ID : e04885cf2a1e\n"}
+,{"stream_name":"stdout","time":138.676270848,"data":"\n"}
+,{"stream_name":"stdout","time":138.676302492,"data":"\n"}
+,{"stream_name":"stdout","time":138.676309415,"data":"\n"}
+,{"stream_name":"stdout","time":138.676314916,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":138.676342413,"data":"\n"}
+,{"stream_name":"stdout","time":138.676347591,"data":"   Images for species No.14 killer_whale\n"}
+,{"stream_name":"stdout","time":138.676352376,"data":"\n"}
+,{"stream_name":"stdout","time":138.676357169,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":138.676362131,"data":"\n"}
+,{"stream_name":"stdout","time":138.676367005,"data":"Individual ID : e6388e8a7f58\n"}
+,{"stream_name":"stdout","time":142.750433556,"data":"\n"}
+,{"stream_name":"stdout","time":142.750473806,"data":"Individual ID : fe8052dcc19e\n"}
+,{"stream_name":"stdout","time":147.026347701,"data":"\n"}
+,{"stream_name":"stdout","time":147.026370579,"data":"Individual ID : e702dc246ecd\n"}
+,{"stream_name":"stdout","time":148.836310409,"data":"\n"}
+,{"stream_name":"stdout","time":148.83633488,"data":"\n"}
+,{"stream_name":"stdout","time":148.836339365,"data":"\n"}
+,{"stream_name":"stdout","time":148.836342945,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":148.836346574,"data":"\n"}
+,{"stream_name":"stdout","time":148.836349901,"data":"   Images for species No.15 long_finned_pilot_whale\n"}
+,{"stream_name":"stdout","time":148.836353481,"data":"\n"}
+,{"stream_name":"stdout","time":148.836356754,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":148.836360196,"data":"\n"}
+,{"stream_name":"stdout","time":148.836363408,"data":"Individual ID : 82aee03bc09b\n"}
+,{"stream_name":"stdout","time":150.211613893,"data":"\n"}
+,{"stream_name":"stdout","time":150.211642834,"data":"Individual ID : cc1de7fb67cf\n"}
+,{"stream_name":"stdout","time":153.69412901,"data":"\n"}
+,{"stream_name":"stdout","time":153.694163425,"data":"Individual ID : 555ff686517c\n"}
+,{"stream_name":"stdout","time":155.014721565,"data":"\n"}
+,{"stream_name":"stdout","time":155.014759428,"data":"\n"}
+,{"stream_name":"stdout","time":155.014785717,"data":"\n"}
+,{"stream_name":"stdout","time":155.01479142,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":155.014796882,"data":"\n"}
+,{"stream_name":"stdout","time":155.014801828,"data":"   Images for species No.16 sei_whale\n"}
+,{"stream_name":"stdout","time":155.01480695,"data":"\n"}
+,{"stream_name":"stdout","time":155.014811942,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":155.014817058,"data":"\n"}
+,{"stream_name":"stdout","time":155.014822055,"data":"Individual ID : fb492f141125\n"}
+,{"stream_name":"stdout","time":158.89271144,"data":"\n"}
+,{"stream_name":"stdout","time":158.89364085,"data":"Individual ID : 2f5a62b26ef2\n"}
+,{"stream_name":"stdout","time":160.838330981,"data":"\n"}
+,{"stream_name":"stdout","time":160.838364007,"data":"Individual ID : a8faa2d22bba\n"}
+,{"stream_name":"stdout","time":161.70910103,"data":"\n"}
+,{"stream_name":"stdout","time":161.709151555,"data":"\n"}
+,{"stream_name":"stdout","time":161.709158947,"data":"\n"}
+,{"stream_name":"stdout","time":161.709164973,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":161.709171039,"data":"\n"}
+,{"stream_name":"stdout","time":161.709177378,"data":"   Images for species No.17 spinner_dolphin\n"}
+,{"stream_name":"stdout","time":161.709183596,"data":"\n"}
+,{"stream_name":"stdout","time":161.709189485,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":161.709223064,"data":"\n"}
+,{"stream_name":"stdout","time":161.709229079,"data":"Individual ID : 453039468cbf\n"}
+,{"stream_name":"stdout","time":162.089828743,"data":"\n"}
+,{"stream_name":"stdout","time":162.089857443,"data":"Individual ID : 0d11516e7fbe\n"}
+,{"stream_name":"stdout","time":163.009926174,"data":"\n"}
+,{"stream_name":"stdout","time":163.009951515,"data":"Individual ID : 49e75f3dfbec\n"}
+,{"stream_name":"stdout","time":164.140894592,"data":"\n"}
+,{"stream_name":"stdout","time":164.14093755,"data":"\n"}
+,{"stream_name":"stdout","time":164.140943804,"data":"\n"}
+,{"stream_name":"stdout","time":164.140948709,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":164.14095371,"data":"\n"}
+,{"stream_name":"stdout","time":164.140958482,"data":"   Images for species No.18 bottlenose_dolpin\n"}
+,{"stream_name":"stdout","time":164.140963503,"data":"\n"}
+,{"stream_name":"stdout","time":164.140968076,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":164.140973086,"data":"\n"}
+,{"stream_name":"stdout","time":164.140977799,"data":"Individual ID : 356b1b0ece97\n"}
+,{"stream_name":"stdout","time":166.083215863,"data":"\n"}
+,{"stream_name":"stdout","time":166.083266784,"data":"Individual ID : 3b5cd491b73f\n"}
+,{"stream_name":"stdout","time":167.55130815,"data":"\n"}
+,{"stream_name":"stdout","time":167.55137552,"data":"Individual ID : c63c9eb5dde3\n"}
+,{"stream_name":"stdout","time":167.954640325,"data":"\n"}
+,{"stream_name":"stdout","time":167.954681096,"data":"\n"}
+,{"stream_name":"stdout","time":167.954687463,"data":"\n"}
+,{"stream_name":"stdout","time":167.954692862,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":167.954698232,"data":"\n"}
+,{"stream_name":"stdout","time":167.954703292,"data":"   Images for species No.19 cuviers_beaked_whale\n"}
+,{"stream_name":"stdout","time":167.95470866,"data":"\n"}
+,{"stream_name":"stdout","time":167.954713652,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":167.954718868,"data":"\n"}
+,{"stream_name":"stdout","time":167.954723772,"data":"Individual ID : 9bb396533ccc\n"}
+,{"stream_name":"stdout","time":171.48343059,"data":"\n"}
+,{"stream_name":"stdout","time":171.483481786,"data":"Individual ID : 3e8446936a41\n"}
+,{"stream_name":"stdout","time":174.374840035,"data":"\n"}
+,{"stream_name":"stdout","time":174.37487197,"data":"Individual ID : b5a0094b63a3\n"}
+,{"stream_name":"stdout","time":176.117443196,"data":"\n"}
+,{"stream_name":"stdout","time":176.117490092,"data":"\n"}
+,{"stream_name":"stdout","time":176.117495851,"data":"\n"}
+,{"stream_name":"stdout","time":176.11750083,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":176.117505912,"data":"\n"}
+,{"stream_name":"stdout","time":176.117510717,"data":"   Images for species No.20 spotted_dolphin\n"}
+,{"stream_name":"stdout","time":176.117521459,"data":"\n"}
+,{"stream_name":"stdout","time":176.117529522,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":176.117537835,"data":"\n"}
+,{"stream_name":"stdout","time":176.117543756,"data":"Individual ID : bc05e97f4fea\n"}
+,{"stream_name":"stdout","time":176.474999714,"data":"\n"}
+,{"stream_name":"stdout","time":176.475551884,"data":"Individual ID : 8f044d8617ac\n"}
+,{"stream_name":"stdout","time":176.925364466,"data":"\n"}
+,{"stream_name":"stdout","time":176.925426267,"data":"Individual ID : 914c55bc799b\n"}
+,{"stream_name":"stdout","time":177.359047984,"data":"\n"}
+,{"stream_name":"stdout","time":177.35908083,"data":"\n"}
+,{"stream_name":"stdout","time":177.359086578,"data":"\n"}
+,{"stream_name":"stdout","time":177.359091535,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":177.359100758,"data":"\n"}
+,{"stream_name":"stdout","time":177.359111459,"data":"   Images for species No.21 globis\n"}
+,{"stream_name":"stdout","time":177.359120829,"data":"\n"}
+,{"stream_name":"stdout","time":177.359127156,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":177.359133761,"data":"\n"}
+,{"stream_name":"stdout","time":177.35913981,"data":"Individual ID : f66a485c89f7\n"}
+,{"stream_name":"stdout","time":178.040936706,"data":"\n"}
+,{"stream_name":"stdout","time":178.040969991,"data":"Individual ID : 6d4df87a5658\n"}
+,{"stream_name":"stdout","time":178.911727115,"data":"\n"}
+,{"stream_name":"stdout","time":178.911754247,"data":"Individual ID : c7691adf2825\n"}
+,{"stream_name":"stdout","time":179.903023555,"data":"\n"}
+,{"stream_name":"stdout","time":179.903054844,"data":"\n"}
+,{"stream_name":"stdout","time":179.903061519,"data":"\n"}
+,{"stream_name":"stdout","time":179.903067057,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":179.903072222,"data":"\n"}
+,{"stream_name":"stdout","time":179.903077113,"data":"   Images for species No.22 brydes_whale\n"}
+,{"stream_name":"stdout","time":179.903082069,"data":"\n"}
+,{"stream_name":"stdout","time":179.903086851,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":179.90309145,"data":"\n"}
+,{"stream_name":"stdout","time":179.90309621,"data":"Individual ID : a5fa185061f0\n"}
+,{"stream_name":"stdout","time":182.336017533,"data":"\n"}
+,{"stream_name":"stdout","time":182.336056205,"data":"Individual ID : 9a2649a6def4\n"}
+,{"stream_name":"stdout","time":182.660062612,"data":"\n"}
+,{"stream_name":"stdout","time":182.660148647,"data":"Individual ID : 73b0e218c3a3\n"}
+,{"stream_name":"stdout","time":186.868447448,"data":"\n"}
+,{"stream_name":"stdout","time":186.868491774,"data":"\n"}
+,{"stream_name":"stdout","time":186.86849849,"data":"\n"}
+,{"stream_name":"stdout","time":186.868503733,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":186.868508413,"data":"\n"}
+,{"stream_name":"stdout","time":186.86851291,"data":"   Images for species No.23 commersons_dolphin\n"}
+,{"stream_name":"stdout","time":186.868517939,"data":"\n"}
+,{"stream_name":"stdout","time":186.868523147,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":186.868528096,"data":"\n"}
+,{"stream_name":"stdout","time":186.868533017,"data":"Individual ID : 21833976de5f\n"}
+,{"stream_name":"stdout","time":187.623397236,"data":"\n"}
+,{"stream_name":"stdout","time":187.623418836,"data":"Individual ID : 317b3a905ce4\n"}
+,{"stream_name":"stdout","time":187.894757054,"data":"\n"}
+,{"stream_name":"stdout","time":187.89477927,"data":"Individual ID : 811d1625dcb9\n"}
+,{"stream_name":"stdout","time":189.124373927,"data":"\n"}
+,{"stream_name":"stdout","time":189.124421742,"data":"\n"}
+,{"stream_name":"stdout","time":189.124447918,"data":"\n"}
+,{"stream_name":"stdout","time":189.124458844,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":189.124519718,"data":"\n"}
+,{"stream_name":"stdout","time":189.124531109,"data":"   Images for species No.24 white_sided_dolphin\n"}
+,{"stream_name":"stdout","time":189.124542021,"data":"\n"}
+,{"stream_name":"stdout","time":189.124553143,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":189.124564166,"data":"\n"}
+,{"stream_name":"stdout","time":189.124574527,"data":"Individual ID : e6729cf51870\n"}
+,{"stream_name":"stdout","time":190.313084835,"data":"\n"}
+,{"stream_name":"stdout","time":190.313123772,"data":"Individual ID : e4b14d17db37\n"}
+,{"stream_name":"stdout","time":190.799521027,"data":"\n"}
+,{"stream_name":"stdout","time":190.79954175,"data":"Individual ID : 488f0e00456d\n"}
+,{"stream_name":"stdout","time":191.967765765,"data":"\n"}
+,{"stream_name":"stdout","time":191.967798005,"data":"\n"}
+,{"stream_name":"stdout","time":191.967803446,"data":"\n"}
+,{"stream_name":"stdout","time":191.96780832,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":191.967813222,"data":"\n"}
+,{"stream_name":"stdout","time":191.967817991,"data":"   Images for species No.25 short_finned_pilot_whale\n"}
+,{"stream_name":"stdout","time":191.967823076,"data":"\n"}
+,{"stream_name":"stdout","time":191.967827762,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":191.967832481,"data":"\n"}
+,{"stream_name":"stdout","time":191.967837027,"data":"Individual ID : 4fb5ef2a9b98\n"}
+,{"stream_name":"stdout","time":192.996696429,"data":"\n"}
+,{"stream_name":"stdout","time":192.996730768,"data":"Individual ID : 72f0f4547f22\n"}
+,{"stream_name":"stdout","time":194.783180468,"data":"\n"}
+,{"stream_name":"stdout","time":194.783210466,"data":"Individual ID : 90601cda9944\n"}
+,{"stream_name":"stdout","time":196.30988818,"data":"\n"}
+,{"stream_name":"stdout","time":196.309920965,"data":"\n"}
+,{"stream_name":"stdout","time":196.309927904,"data":"\n"}
+,{"stream_name":"stdout","time":196.309934195,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":196.309940198,"data":"\n"}
+,{"stream_name":"stdout","time":196.30994641,"data":"   Images for species No.26 rough_toothed_dolphin\n"}
+,{"stream_name":"stdout","time":196.309952282,"data":"\n"}
+,{"stream_name":"stdout","time":196.309958518,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":196.309964764,"data":"\n"}
+,{"stream_name":"stdout","time":196.309970438,"data":"Individual ID : 843568d8b320\n"}
+,{"stream_name":"stdout","time":196.808384612,"data":"\n"}
+,{"stream_name":"stdout","time":196.808426742,"data":"Individual ID : e9b125ca9fc5\n"}
+,{"stream_name":"stdout","time":197.73435092,"data":"\n"}
+,{"stream_name":"stdout","time":197.734382803,"data":"Individual ID : c367e1417e83\n"}
+,{"stream_name":"stdout","time":198.290216209,"data":"\n"}
+,{"stream_name":"stdout","time":198.290249215,"data":"\n"}
+,{"stream_name":"stdout","time":198.290255311,"data":"\n"}
+,{"stream_name":"stdout","time":198.29026552,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":198.290272412,"data":"\n"}
+,{"stream_name":"stdout","time":198.290283451,"data":"   Images for species No.27 pantropic_spotted_dolphin\n"}
+,{"stream_name":"stdout","time":198.290290493,"data":"\n"}
+,{"stream_name":"stdout","time":198.290296393,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":198.290302548,"data":"\n"}
+,{"stream_name":"stdout","time":198.29033381,"data":"Individual ID : c47159d4f91b\n"}
+,{"stream_name":"stdout","time":199.146285477,"data":"\n"}
+,{"stream_name":"stdout","time":199.146318751,"data":"Individual ID : 7ceb3d745382\n"}
+,{"stream_name":"stdout","time":199.510570697,"data":"\n"}
+,{"stream_name":"stdout","time":199.51060892,"data":"Individual ID : 425f5ba95aef\n"}
+,{"stream_name":"stdout","time":201.801492051,"data":"\n"}
+,{"stream_name":"stdout","time":201.801536984,"data":"\n"}
+,{"stream_name":"stdout","time":201.801544732,"data":"\n"}
+,{"stream_name":"stdout","time":201.801550238,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":201.801555948,"data":"\n"}
+,{"stream_name":"stdout","time":201.801561309,"data":"   Images for species No.28 pygmy_killer_whale\n"}
+,{"stream_name":"stdout","time":201.801566735,"data":"\n"}
+,{"stream_name":"stdout","time":201.801571972,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":201.801577434,"data":"\n"}
+,{"stream_name":"stdout","time":201.801582548,"data":"Individual ID : 896640802caf\n"}
+,{"stream_name":"stdout","time":202.162876282,"data":"\n"}
+,{"stream_name":"stdout","time":202.162919209,"data":"Individual ID : 0718f3601163\n"}
+,{"stream_name":"stdout","time":203.228225326,"data":"\n"}
+,{"stream_name":"stdout","time":203.228246168,"data":"Individual ID : 8e7a9b4f9ff6\n"}
+,{"stream_name":"stdout","time":203.824911467,"data":"\n"}
+,{"stream_name":"stdout","time":203.824932218,"data":"\n"}
+,{"stream_name":"stdout","time":203.824945368,"data":"\n"}
+,{"stream_name":"stdout","time":203.82494941,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":203.824953156,"data":"\n"}
+,{"stream_name":"stdout","time":203.82495673,"data":"   Images for species No.29 frasiers_dolphin\n"}
+,{"stream_name":"stdout","time":203.824960319,"data":"\n"}
+,{"stream_name":"stdout","time":203.824963729,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":203.824967389,"data":"\n"}
+,{"stream_name":"stdout","time":203.824970832,"data":"Individual ID : c850b153e202\n"}
+,{"stream_name":"stdout","time":204.120689386,"data":"\n"}
+,{"stream_name":"stdout","time":204.120710898,"data":"Individual ID : ebdbc40f5a23\n"}
+,{"stream_name":"stdout","time":204.425401959,"data":"\n"}
+,{"stream_name":"stdout","time":204.425422545,"data":"Individual ID : 8129c58c5831\n"}
+,{"stream_name":"stdout","time":204.498742405,"data":"\n"}
+,{"stream_name":"stdout","time":204.498770803,"data":"\n"}
+,{"stream_name":"stdout","time":234.376878842,"data":"/kaggle/input/whale-dolphin-background-removed-images-1-4/nobg/train_images:\r\n"}
+,{"stream_name":"stdout","time":235.326383,"data":"  3677\tfcebaa93cce8b2.png\r\n"}
+,{"stream_name":"stdout","time":235.326406264,"data":"  3678\tfd54379f2414ea.png\r\n"}
+,{"stream_name":"stdout","time":235.326410469,"data":"  3679\tfe3139b1cbcfdd.png\r\n"}
+,{"stream_name":"stdout","time":235.326414128,"data":"  3680\tfe583a2345b7fa.png\r\n"}
+,{"stream_name":"stdout","time":235.326417771,"data":"  3681\tff2cc27c5b848d.png\r\n"}
+,{"stream_name":"stdout","time":236.079376114,"data":"\r\n"}
+,{"stream_name":"stdout","time":236.826542705,"data":"/kaggle/input/whale-dolphin-background-removed-images-2-4/nobg/train_images:\r\n"}
+,{"stream_name":"stdout","time":237.706612665,"data":"  3019\tfe077d5c743d2a.png\r\n"}
+,{"stream_name":"stdout","time":237.70664103,"data":"  3020\tfefc8bf7a9569c.png\r\n"}
+,{"stream_name":"stdout","time":237.706665134,"data":"  3021\tff2c586b000bd9.png\r\n"}
+,{"stream_name":"stdout","time":237.706670908,"data":"  3022\tffe2cfd8177062.png\r\n"}
+,{"stream_name":"stdout","time":237.706676073,"data":"  3023\tfff219829b3c68.png\r\n"}
+,{"stream_name":"stdout","time":238.47165706,"data":"\r\n"}
+,{"stream_name":"stdout","time":239.219568396,"data":"/kaggle/input/whale-dolphin-background-removed-images-3-4/nobg/train_images:\r\n"}
+,{"stream_name":"stdout","time":240.099795138,"data":"  2514\tff62f1c7998ca5.png\r\n"}
+,{"stream_name":"stdout","time":240.099833918,"data":"  2515\tff715a25e94a1a.png\r\n"}
+,{"stream_name":"stdout","time":240.099840021,"data":"  2516\tff7b6d1b8832b2.png\r\n"}
+,{"stream_name":"stdout","time":240.099845596,"data":"  2517\tffba32adc39e48.png\r\n"}
+,{"stream_name":"stdout","time":240.099851258,"data":"  2518\tfff8b32daff17e.png\r\n"}
+,{"stream_name":"stdout","time":240.856235231,"data":"\r\n"}
+,{"stream_name":"stdout","time":241.602038699,"data":"/kaggle/input/whale-dolphin-background-removed-images-4-4/nobg/train_images:\r\n"}
+,{"stream_name":"stdout","time":242.457954968,"data":"  2111\tfdb6f9217bd92f.png\r\n"}
+,{"stream_name":"stdout","time":242.457984593,"data":"  2112\tfebd9e95751595.png\r\n"}
+,{"stream_name":"stdout","time":242.458010255,"data":"  2113\tff41f49d9ac89f.png\r\n"}
+,{"stream_name":"stdout","time":242.458016106,"data":"  2114\tff4a0522566470.png\r\n"}
+,{"stream_name":"stdout","time":242.458021332,"data":"  2115\tffabd561441e15.png\r\n"}
+,{"stream_name":"stdout","time":243.210999791,"data":"\r\n"}
+,{"stream_name":"stdout","time":379.267301712,"data":"/kaggle/working/nobg/train_images:\r\n"}
+,{"stream_name":"stdout","time":380.049843155,"data":" 11333\tffabd561441e15.png\r\n"}
+,{"stream_name":"stdout","time":380.049870795,"data":" 11334\tffba32adc39e48.png\r\n"}
+,{"stream_name":"stdout","time":380.04987577,"data":" 11335\tffe2cfd8177062.png\r\n"}
+,{"stream_name":"stdout","time":380.049879595,"data":" 11336\tfff219829b3c68.png\r\n"}
+,{"stream_name":"stdout","time":380.049883311,"data":" 11337\tfff8b32daff17e.png\r\n"}
+,{"stream_name":"stdout","time":1716.182428759,"data":"image,species,individual_id,path_to_image,path_to_nobg_image,path_to_cropped_image,annotations_xyxy\r\n"}
+,{"stream_name":"stdout","time":1716.183573447,"data":"00021adfb725ed.jpg,melon_headed_whale,cadddb1636b9,/kaggle/input/happy-whale-and-dolphin/train_images/00021adfb725ed.jpg,/kaggle/working/nobg/train_images/00021adfb725ed.png,/kaggle/working/cropped/train_images/00021adfb725ed.png,\"[{'class_id': (array([0]),), 'x_min': 0, 'y_min': 113, 'x_max': 804, 'y_max': 671, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183598111,"data":"000562241d384d.jpg,humpback_whale,1a71fbb72250,/kaggle/input/happy-whale-and-dolphin/train_images/000562241d384d.jpg,/kaggle/working/nobg/train_images/000562241d384d.png,/kaggle/working/cropped/train_images/000562241d384d.png,\"[{'class_id': (array([1]),), 'x_min': 0, 'y_min': 153, 'x_max': 3504, 'y_max': 2336, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183605415,"data":"0007c33415ce37.jpg,false_killer_whale,60008f293a2b,/kaggle/input/happy-whale-and-dolphin/train_images/0007c33415ce37.jpg,/kaggle/working/nobg/train_images/0007c33415ce37.png,/kaggle/working/cropped/train_images/0007c33415ce37.png,\"[{'class_id': (array([2]),), 'x_min': 0, 'y_min': 0, 'x_max': 3599, 'y_max': 2287, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183611653,"data":"0007d9bca26a99.jpg,bottlenose_dolphin,4b00fe572063,/kaggle/input/happy-whale-and-dolphin/train_images/0007d9bca26a99.jpg,/kaggle/working/nobg/train_images/0007d9bca26a99.png,/kaggle/working/cropped/train_images/0007d9bca26a99.png,\"[{'class_id': (array([3]),), 'x_min': 0, 'y_min': 88, 'x_max': 3504, 'y_max': 1532, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183628231,"data":"00087baf5cef7a.jpg,humpback_whale,8e5253662392,/kaggle/input/happy-whale-and-dolphin/train_images/00087baf5cef7a.jpg,/kaggle/working/nobg/train_images/00087baf5cef7a.png,/kaggle/working/cropped/train_images/00087baf5cef7a.png,\"[{'class_id': (array([1]),), 'x_min': 0, 'y_min': 1484, 'x_max': 3599, 'y_max': 2699, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183635913,"data":"000a8f2d5c316a.jpg,bottlenose_dolphin,b9907151f66e,/kaggle/input/happy-whale-and-dolphin/train_images/000a8f2d5c316a.jpg,/kaggle/working/nobg/train_images/000a8f2d5c316a.png,/kaggle/working/cropped/train_images/000a8f2d5c316a.png,\"[{'class_id': (array([3]),), 'x_min': 483, 'y_min': 439, 'x_max': 2516, 'y_max': 1196, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183640043,"data":"000be9acf46619.jpg,beluga,afb9b3978217,/kaggle/input/happy-whale-and-dolphin/train_images/000be9acf46619.jpg,/kaggle/working/nobg/train_images/000be9acf46619.png,/kaggle/working/cropped/train_images/000be9acf46619.png,\"[{'class_id': (array([4]),), 'x_min': 0, 'y_min': 29, 'x_max': 665, 'y_max': 127, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183644008,"data":"000bef247c7a42.jpg,humpback_whale,444d8894ccc8,/kaggle/input/happy-whale-and-dolphin/train_images/000bef247c7a42.jpg,/kaggle/working/nobg/train_images/000bef247c7a42.png,/kaggle/working/cropped/train_images/000bef247c7a42.png,\"[{'class_id': (array([1]),), 'x_min': 0, 'y_min': 1245, 'x_max': 2701, 'y_max': 1583, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":1716.183648007,"data":"000c3d63069748.jpg,beluga,df94b15285b9,/kaggle/input/happy-whale-and-dolphin/train_images/000c3d63069748.jpg,/kaggle/working/nobg/train_images/000c3d63069748.png,/kaggle/working/cropped/train_images/000c3d63069748.png,\"[{'class_id': (array([4]),), 'x_min': 7, 'y_min': 55, 'x_max': 449, 'y_max': 160, 'confidence': 1.0}]\"\r\n"}
+,{"stream_name":"stdout","time":5907.164132172,"data":"  3996\t174749cfbf2c8f.png\r\n"}
+,{"stream_name":"stdout","time":5907.165250846,"data":"  3997\t1749366fad5f4f.png\r\n"}
+,{"stream_name":"stdout","time":5907.165266075,"data":"  3998\t174b5e56311815.png\r\n"}
+,{"stream_name":"stdout","time":5907.165270042,"data":"  3999\t1751da9e3e4a45.png\r\n"}
+,{"stream_name":"stdout","time":5907.165273585,"data":"  4000\t175a78960a717f.png\r\n"}
+,{"stream_name":"stderr","time":9547.837062977,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":9547.838184982,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":9547.838206642,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":9570.606398068,"data":"[NbConvertApp] Writing 532732789 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":9576.627258852,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":9576.627305869,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":9576.627312626,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":9590.185699316,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":9590.185755896,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.186344142,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.186629206,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.186950816,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.187389816,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.188051352,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.18873018,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.189365552,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.190000558,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.190689326,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.191443343,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.19201345,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.192700089,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.1931175,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.193578469,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.19401226,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.194614323,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.195139663,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.195682875,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.196367048,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.196759014,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.197024373,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.197221443,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.197752978,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.198117113,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.198682391,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.199243996,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.199842175,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.200137269,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.200315021,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.200797225,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.201475998,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.202133896,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.202742038,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.20339904,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.204093273,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.204817228,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.205457858,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.205775372,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.206121841,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.206359766,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.206636215,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.206967404,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.207509654,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.208108632,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.208510454,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.208864344,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.209394487,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.209882091,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.210416694,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.210896413,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.211154883,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.211414741,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.212101603,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.212421533,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.213106991,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.213724509,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.214014617,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.214485653,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.214937226,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.215295692,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.215567096,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.215889606,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.216129722,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.216561121,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.217078528,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.217484847,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.218185362,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.218456892,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.219138136,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.219308746,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.219610452,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.219928333,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.220098821,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.220384547,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.220706524,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.221035749,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.221339426,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.221653466,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.222004791,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.222236538,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.222584079,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.223181446,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.223487464,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.224084242,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.224258658,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.224824415,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.225229809,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.225485458,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.225805152,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.226104693,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.242077129,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.258965511,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.275608365,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.291860256,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.30788794,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.324301165,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.341322089,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.358477956,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.375086925,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.392258284,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.408177191,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.424610926,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.441311167,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.459674748,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.494936547,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.534148551,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.576423997,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.60845217,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.624698618,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":9590.642617675,"data":"[NbConvertApp] Writing 420537 bytes to __results__.html\n"}
+]
