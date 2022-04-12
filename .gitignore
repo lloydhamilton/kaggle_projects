@@ -3,3 +3,4 @@
 *.csv
 *.png
 *.zip
+!heart_2020_cleaned.csv
